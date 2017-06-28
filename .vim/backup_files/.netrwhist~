@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/Users/D/Development/Java/BrainFxxk'
+let g:netrw_dirhist_2='/Users/D/Development/Java/BrainFxxk/cfad836abd9e4619a1b1'
+let g:netrw_dirhist_3='/Users/D/Development/Java/BrainFxxk'
+let g:netrw_dirhist_4='/Users/D/Development/Java/BrainFxxk/Okurikara'
+let g:netrw_dirhist_5='/Users/D/Development/Java/BrainFxxk'
+let g:netrw_dirhist_6='/Users/D/Development/Java/BrainFxxk/cfad836abd9e4619a1b1'

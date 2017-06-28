@@ -1,0 +1,12 @@
+# .bash_profile:ログイン時のみ実行される．
+# exportしたのはプロセス間で共有されるのでこっちに
+# link:http://qiita.com/magicant/items/d3bb7ea1192e63fba850
+
+#add path
+export PATH="/usr/local/bin:$PATH"
+
+# init pyenv
+eval "$($pyenv init -)"
+
+# load .bashrc
+test -r ~/.bashrc && . ~/.bashrc

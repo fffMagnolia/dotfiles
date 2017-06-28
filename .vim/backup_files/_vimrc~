@@ -1,0 +1,31 @@
+"" ================ General Config ====================
+
+set number						" Show line numbers.
+set ruler 						" Show the line and colomn number of the cursor position,
+								" separated by a comma.
+set backspace=indent,eol,start  " Allow backspace in insert mode.
+set showmode					" Show current mode down the bottom.
+set cursorline					" Show cursorline.
+set title						" Config window title.
+set expandtab					" Change tab to space.
+
+"" ================ Indentation ====================
+set autoindent
+set smartindent
+set shiftwidth=4
+set tabstop=4
+
+"" ================ Search ====================
+set hlsearch
+set smartcase
+
+"" ================ Look and Feel ====================
+set list						" Show <Tab>,<EOF>
+set listchars=tab:>-,eol:<,trail:^
+
+"" ================ Key Map ====================
+nnoremap ; :
+nnoremap sd <C-d>
+
+"turn on syntax hilighting
+syntax on
